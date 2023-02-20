@@ -1,0 +1,9 @@
+.layout {
+  background-color: var(--primary-background-color);
+  .main {
+    height:fit-content;
+    min-height: 100vh;
+     //min-height: calc(100vh - 34.85rem);
+  }
+}
+//bug 计算主页面大小

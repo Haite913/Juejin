@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "juejin_link_reads",
+  "info": {
+    "singularName": "juejin-link-read",
+    "pluralName": "juejin-link-reads",
+    "displayName": "juejinLinkRead",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

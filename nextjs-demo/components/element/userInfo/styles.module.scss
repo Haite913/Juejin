@@ -1,0 +1,57 @@
+
+
+
+.rank{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.33rem;
+  vertical-align: middle;
+}
+.infoRow{
+  display: flex;
+  .avatar{
+    margin-right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .userInfo{
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    .userName{
+      display: flex;
+      align-items: center;
+      font-size: 1.33rem;
+      line-height: 2rem;
+      font-weight: 500;
+      color: #252933;
+      .name{
+        display: inline-block;
+        vertical-align: top;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+    }
+    .position{
+      margin: 0.333rem 0 0;
+      font-size: 1rem;
+      line-height: 1.67rem;
+      max-width: 165px;
+      color: #8f969c;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+// @include media-ipad {
+// }

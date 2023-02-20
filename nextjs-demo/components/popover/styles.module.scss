@@ -1,0 +1,39 @@
+@import "../../pages/media.scss";
+
+@mixin wrapper {
+  position: absolute;
+  display: flex;
+  z-index: 90;
+  height: fit-content;
+  width: fit-content;
+}
+.enter{
+  @include wrapper;
+  animation: fadeIn 300ms;
+}
+.leave{
+  @include wrapper;
+  animation: fadeOut 300ms;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+// @include media-ipad {
+// }

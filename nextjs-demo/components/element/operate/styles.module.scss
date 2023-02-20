@@ -1,0 +1,40 @@
+.imButton{
+  font-size: 14px;
+  box-sizing: border-box;
+  display: flex;
+  width: 122px;
+  height: 36px;
+  background: rgb(247, 253, 255);
+  border: 1px solid #1d7dfa;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.followButton{
+  margin: 0;
+  width: 122px;
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #1d7dfa;
+  border-radius: 4px;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  border: none;
+  white-space: nowrap;
+  &:hover{
+    background-color: #458eee;
+  }
+
+}
+.operateButton{
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  .imButton{
+    margin-left: 16px;
+  }
+}

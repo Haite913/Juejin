@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "juejin_homes",
+  "info": {
+    "singularName": "juejin-home",
+    "pluralName": "juejin-homes",
+    "displayName": "juejinHome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "homeAdvertise": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "linkRead": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::juejin-link-read.juejin-link-read"
+    },
+    "authorRank": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::juejin-user.juejin-user"
+    }
+  }
+}

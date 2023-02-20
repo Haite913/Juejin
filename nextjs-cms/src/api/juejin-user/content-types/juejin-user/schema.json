@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "juejin_users",
+  "info": {
+    "singularName": "juejin-user",
+    "pluralName": "juejin-users",
+    "displayName": "juejinUser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "follow": {
+      "type": "integer"
+    },
+    "fan": {
+      "type": "integer"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "chuangzuorank": {
+      "type": "integer"
+    },
+    "jueyourank": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

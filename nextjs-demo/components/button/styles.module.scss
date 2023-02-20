@@ -1,0 +1,19 @@
+@import "../../pages/media.scss";
+
+.button{
+  height: 100%;
+  align-items: center;
+   display: flex;
+  flex-shrink: 0;
+  font-size: 1.16rem;
+  //color: #71777c;
+  padding: 0 1rem;
+  :hover{
+    color: #007fff;
+  }
+
+}
+
+
+// @include media-ipad {
+// }
